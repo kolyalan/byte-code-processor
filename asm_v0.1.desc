@@ -1,0 +1,19 @@
+Description of supported asm language
+Language version: 0.1
+
+stack works only with double values
+
+commands:
+no args:
+0 - halt    stops the processor
+1 - in      read double value from stdin into stack
+2 - out     write double value from stack to stdout
+3 - outp    write from stack and pop
+4 - sum     pop b, a from stack and push a + b
+5 - sub     -- || -- a - b
+6 - mult    -- || -- a * b
+7 - div     -- || -- a / b
+8 - sqrt    pop a and push sqrt(a)
+
+with 1 arg:
+9 - push <double>   pushes value into stack

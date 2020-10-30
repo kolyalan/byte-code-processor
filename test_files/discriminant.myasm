@@ -1,0 +1,25 @@
+# calculates sqrt(b^2 - 4*a*c)
+
+# read b twice
+# please give it twice in console
+in 
+in  
+mul  
+
+
+push   4 #pushes constant into stack
+in# reads a
+in # reads c
+mul # a * c
+mul # 4 * (a*c)
+
+sub 
+
+sqrt
+
+#output to console
+out 
+
+hlt  
+
+# A LOT OF STRANGE COMMENTS
